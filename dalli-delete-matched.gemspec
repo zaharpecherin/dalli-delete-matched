@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<minitest>, [">= 5.0.0"])
   s.add_development_dependency(%q<mocha>, [">= 0"])
 
-  s.add_dependency "dalli"
+  s.add_dependency "dalli", "2.6.4"
 end
